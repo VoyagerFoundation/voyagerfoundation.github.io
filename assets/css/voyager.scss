@@ -1,0 +1,14 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+.quote {
+  text-align: center;
+}
+
+// override theme
+body {
+  margin-top: 0px;
+  padding-top: 5px;
+}
