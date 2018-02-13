@@ -73,7 +73,12 @@
 </footer>
     </div>
     <script src="/assets/js/scale.fix.js"></script>
-
+<script> 
+var host = "voyagerfoundation.org"
+if (window.location.host == host && window.location.protocol != "https:") {
+  window.location.protocol = "https:"
+}
+</script>
 
 
   </body>
