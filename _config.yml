@@ -5,3 +5,7 @@ description: To take humanity's greatest problems and empower people to collabor
 
 show_downloads: false
 # google_analytics: [Your Google Analytics tracking ID]
+
+sass:
+    sass_dir: _sass
+    style: compressed
