@@ -5,7 +5,14 @@
 
 .quote {
   text-align: center;
+  font-style: italic;
+
+  .thik {
+    font-weight: bold;
+  }
 }
+
+
 .center-block {
   text-align: center;
   padding-bottom: 10px;
@@ -17,12 +24,18 @@
 
 // override theme
 body {
+  display: block;
   font: 14px/1.5 "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin-top: 0px;
   margin-left: 10%;
   margin-right: 10%;
   padding-top: 5px;
   color: #727272;
+}
+
+header {
+  margin-left: -0.5rem;
+  margin-right: -0.5rem;
 }
 
 h2 {
