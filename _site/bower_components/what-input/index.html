@@ -88,6 +88,225 @@
       </section>
       <!--  End Hero Section  -->
 
+    <!--  Start Vision Section  -->
+      <section class="vision" id="vision">     
+
+          <!--    Start Services Titles    -->
+              <h1 id="what-input">What Input?</h1>
+
+<p><strong>A global utility for tracking the current input method (mouse, keyboard or touch).</strong></p>
+
+<h2 id="what-input-is-now-v416">What Input is now v4.1.6</h2>
+
+<p>What Input adds data attributes to the <code class="highlighter-rouge"><span class="nt">&lt;html&gt;</span></code> tag based on the type of input being used. It also exposes a simple API that can be used for scripting interactions.</p>
+
+<h3 id="june-12-2017">June 12, 2017</h3>
+
+<ul>
+  <li>Added: passive event listener for <code class="highlighter-rouge">wheel</code> event.</li>
+  <li>Added: ability to fire custom functions when ‘intent’ or ‘input’ changes.</li>
+</ul>
+
+<h3 id="changes-from-v3">Changes from v3</h3>
+
+<ul>
+  <li><code class="highlighter-rouge">mousemove</code> and <code class="highlighter-rouge">pointermove</code> events no longer affect the <code class="highlighter-rouge">data-whatinput</code> attribute.</li>
+  <li>A new <code class="highlighter-rouge">data-whatintent</code> attribute now works like v3. This change is intended to separate direct interaction from potential.</li>
+  <li>Key logging and the corresponding <code class="highlighter-rouge">whatInput.keys()</code> API option have been removed.</li>
+  <li>Event binding and attributes are now added to the <code class="highlighter-rouge"><span class="nt">&lt;html&gt;</span></code> tag to eliminate the need to test for <code class="highlighter-rouge">DOMContentLoaded</code>.</li>
+  <li>The <code class="highlighter-rouge">whatInput.set()</code> API option has been removed.</li>
+  <li>A new set of <code class="highlighter-rouge">whatinput-types-[type]</code> classes are now added as inputs are detected. New classes are added but existing ones remain, creating the same output as what the <code class="highlighter-rouge">whatInput.types()</code> returns.</li>
+</ul>
+
+<h2 id="how-it-works">How it works</h2>
+
+<p>What Input uses event bubbling on the <code class="highlighter-rouge"><span class="nt">&lt;html&gt;</span></code> tag to watch for mouse, keyboard and touch events (via <code class="highlighter-rouge">mousedown</code>, <code class="highlighter-rouge">keydown</code> and <code class="highlighter-rouge">touchstart</code>). It then sets or updates a <code class="highlighter-rouge">data-whatinput</code> attribute.</p>
+
+<p>Where present, Pointer Events are supported, but note that <code class="highlighter-rouge">pen</code> inputs are remapped to <code class="highlighter-rouge">touch</code>.</p>
+
+<p>What Input also exposes a tiny API that allows the developer to ask for or set the current input.</p>
+
+<p><em>What Input does not make assumptions about the input environment before the page is directly interacted with.</em> However, the <code class="highlighter-rouge">mousemove</code> and <code class="highlighter-rouge">pointermove</code> events are used to set a <code class="highlighter-rouge">data-whatintent="mouse"</code> attribute to indicate that a mouse is being used <em>indirectly</em>.</p>
+
+<h3 id="interacting-with-forms">Interacting with Forms</h3>
+
+<p>Since interacting with a form requires use of the keyboard, What Input <em>does not switch the input type while form <code class="highlighter-rouge">&lt;input&gt;</code>s and <code class="highlighter-rouge">&lt;textarea&gt;</code>s are being interacted with</em>, preserving the last detected input type.</p>
+
+<h2 id="installing">Installing</h2>
+
+<p>Download the file directly…</p>
+
+<p>or install via Bower…</p>
+
+<div class="language-shell highlighter-rouge"><div class="highlight"><pre class="highlight"><code>bower install what-input
+</code></pre></div></div>
+
+<p>or install via NPM…</p>
+
+<div class="language-shell highlighter-rouge"><div class="highlight"><pre class="highlight"><code>npm install what-input
+</code></pre></div></div>
+
+<h2 id="usage">Usage</h2>
+
+<p>Include the script directly in your project.</p>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;script </span><span class="na">src=</span><span class="s">"dist/what-input.min.js"</span><span class="nt">&gt;&lt;/script&gt;</span>
+</code></pre></div></div>
+
+<p>Or require with a script loader.</p>
+
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nx">require</span><span class="p">(</span><span class="s1">'what-input'</span><span class="p">);</span>
+
+<span class="c1">// or</span>
+
+<span class="kd">var</span> <span class="nx">whatInput</span> <span class="o">=</span> <span class="nx">require</span><span class="p">(</span><span class="s1">'what-input'</span><span class="p">);</span>
+
+<span class="c1">// or</span>
+
+<span class="nx">requirejs</span><span class="p">.</span><span class="nx">config</span><span class="p">({</span>
+  <span class="na">paths</span><span class="p">:</span> <span class="p">{</span>
+    <span class="na">whatInput</span><span class="p">:</span> <span class="s1">'path/to/what-input'</span>
+  <span class="p">}</span>
+<span class="p">});</span>
+
+<span class="nx">require</span><span class="p">([</span><span class="s1">'whatInput'</span><span class="p">],</span> <span class="kd">function</span><span class="p">()</span> <span class="p">{});</span>
+</code></pre></div></div>
+
+<p>What Input will start doing its thing while you do yours.</p>
+
+<h3 id="example-styling">Example Styling</h3>
+
+<div class="language-css highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c">/**
+ * set a custom default :focus style
+ */</span>
+
+<span class="c">/* default styling before what input executes */</span>
+<span class="nd">:focus</span> <span class="p">{</span>
+
+<span class="p">}</span>
+
+<span class="c">/* initial styling after what input has executed but before any interaction */</span>
+<span class="o">[</span><span class="nt">data-whatinput</span><span class="o">=</span><span class="s1">"initial"</span><span class="o">]</span> <span class="nd">:focus</span> <span class="p">{</span>
+  <span class="nl">outline</span><span class="p">:</span> <span class="m">2px</span> <span class="nb">dotted</span> <span class="no">black</span><span class="p">;</span>
+<span class="p">}</span>
+
+<span class="c">/* mouse */</span>
+<span class="o">[</span><span class="nt">data-whatinput</span><span class="o">=</span><span class="s1">"mouse"</span><span class="o">]</span> <span class="nd">:focus</span> <span class="p">{</span>
+  <span class="nl">outline-color</span><span class="p">:</span> <span class="no">red</span><span class="p">;</span>
+<span class="p">}</span>
+
+<span class="c">/* keyboard */</span>
+<span class="o">[</span><span class="nt">data-whatinput</span><span class="o">=</span><span class="s1">"keyboard"</span><span class="o">]</span> <span class="nd">:focus</span> <span class="p">{</span>
+  <span class="nl">outline-color</span><span class="p">:</span> <span class="no">green</span><span class="p">;</span>
+<span class="p">}</span>
+
+<span class="c">/* touch */</span>
+<span class="o">[</span><span class="nt">data-whatinput</span><span class="o">=</span><span class="s1">"touch"</span><span class="o">]</span> <span class="nd">:focus</span> <span class="p">{</span>
+  <span class="nl">outline-color</span><span class="p">:</span> <span class="no">blue</span><span class="p">;</span>
+<span class="p">}</span>
+</code></pre></div></div>
+<p><strong>Note:</strong> If you remove outlines with <code class="highlighter-rouge">outline: none;</code>, be sure to provide clear visual <code class="highlighter-rouge">:focus</code> styles so the user can see which element they are on at any time for greater accessibility. Visit <a href="https://www.w3.org/TR/UNDERSTANDING-WCAG20/navigation-mechanisms-focus-visible.html">W3C’s WCAG 2.0 2.4.7 Guideline</a> to learn more.</p>
+
+<h3 id="scripting">Scripting</h3>
+
+<h4 id="current-input">Current Input</h4>
+
+<p>Ask What Input what the current input method is. This works best if asked after the events What Input is bound to (<code class="highlighter-rouge">mousedown</code>, <code class="highlighter-rouge">keydown</code> and <code class="highlighter-rouge">touchstart</code>).</p>
+
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nx">whatInput</span><span class="p">.</span><span class="nx">ask</span><span class="p">();</span> <span class="c1">// returns `mouse`, `keyboard` or `touch`</span>
+
+<span class="nx">myButton</span><span class="p">.</span><span class="nx">addEventListener</span><span class="p">(</span><span class="s1">'click'</span><span class="p">,</span> <span class="kd">function</span><span class="p">()</span> <span class="p">{</span>
+
+  <span class="k">if</span> <span class="p">(</span><span class="nx">whatInput</span><span class="p">.</span><span class="nx">ask</span><span class="p">()</span> <span class="o">===</span> <span class="s1">'mouse'</span><span class="p">)</span> <span class="p">{</span>
+    <span class="c1">// do mousy things</span>
+  <span class="p">}</span> <span class="k">else</span> <span class="k">if</span> <span class="p">(</span><span class="nx">whatInput</span><span class="p">.</span><span class="nx">ask</span><span class="p">()</span> <span class="o">===</span> <span class="s1">'keyboard'</span><span class="p">)</span> <span class="p">{</span>
+    <span class="c1">// do keyboard things</span>
+  <span class="p">}</span>
+
+<span class="p">});</span>
+</code></pre></div></div>
+
+<p>If it’s necessary to know if <code class="highlighter-rouge">mousemove</code> is being used, use the <code class="highlighter-rouge">'loose'</code> option. For example:</p>
+
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
+<span class="cm">/*
+  nothing has happened but the mouse has moved
+*/</span>
+
+<span class="nx">whatInput</span><span class="p">.</span><span class="nx">ask</span><span class="p">();</span> <span class="c1">// returns `initial` because the page has not been directly interacted with</span>
+<span class="nx">whatInput</span><span class="p">.</span><span class="nx">ask</span><span class="p">(</span><span class="s1">'loose'</span><span class="p">);</span> <span class="c1">// returns `mouse` because mouse movement was detected</span>
+
+<span class="cm">/*
+  the keyboard has been used, then the mouse was moved
+*/</span>
+
+<span class="nx">whatInput</span><span class="p">.</span><span class="nx">ask</span><span class="p">();</span> <span class="c1">// returns `keyboard` because the keyboard was the last direct page interaction</span>
+<span class="nx">whatInput</span><span class="p">.</span><span class="nx">ask</span><span class="p">(</span><span class="s1">'loose'</span><span class="p">);</span> <span class="c1">// returns `mouse` because mouse movement was the most recent action detected</span>
+</code></pre></div></div>
+
+<p>Ask What Input to return an array of all the input types that have been used <em>so far</em>.</p>
+
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nx">whatInput</span><span class="p">.</span><span class="nx">types</span><span class="p">();</span> <span class="c1">// ex. returns ['mouse', 'keyboard']</span>
+</code></pre></div></div>
+
+<p>Set a custom array of keycodes that will be ignored when pressed.</p>
+
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nx">whatInput</span><span class="p">.</span><span class="nx">ignoreKeys</span><span class="p">([</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">])</span>
+</code></pre></div></div>
+
+<p>Fire a function when the input or intent changes.</p>
+
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1">// create a function to be fired</span>
+<span class="kd">var</span> <span class="nx">myFunction</span> <span class="o">=</span> <span class="kd">function</span><span class="p">(</span><span class="nx">type</span><span class="p">)</span> <span class="p">{</span>
+  <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">type</span><span class="p">)</span>
+<span class="p">};</span>
+
+<span class="c1">// fire `myFunction` when the intent changes</span>
+<span class="nx">whatInput</span><span class="p">.</span><span class="nx">onChange</span><span class="p">(</span><span class="nx">myFunction</span><span class="p">,</span> <span class="s1">'intent'</span><span class="p">);</span>
+
+<span class="c1">// fire `myFunction` when the input changes</span>
+<span class="nx">whatInput</span><span class="p">.</span><span class="nx">onChange</span><span class="p">(</span><span class="nx">myFunction</span><span class="p">,</span> <span class="s1">'input'</span><span class="p">);</span>
+</code></pre></div></div>
+
+<h2 id="compatibility">Compatibility</h2>
+
+<p>What Input works in all modern browsers. For compatibility with IE8, polyfills are required for:</p>
+
+<ul>
+  <li>addEventListener</li>
+  <li>IndexOf</li>
+</ul>
+
+<p>Add your own, or grab the bundle included here.</p>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c">&lt;!--[if lte IE 8]&gt;
+  &lt;script src="lte-IE8.js"&gt;&lt;/script&gt;
+&lt;![endif]--&gt;</span>
+</code></pre></div></div>
+
+<h2 id="demo">Demo</h2>
+
+<p>Check out the demo to see What Input in action.</p>
+
+<p>http://ten1seven.github.io/what-input</p>
+
+<h2 id="acknowledgments">Acknowledgments</h2>
+
+<p>Special thanks to <a href="http://viget.com/">Viget</a> for their encouragement and commitment to open source projects. Visit <a href="http://code.viget.com/">code.viget.com</a> to see more projects from <a href="http://viget.com">Viget</a>.</p>
+
+<p>Thanks to <a href="https://github.com/mAAdhaTTah">mAAdhaTTah</a> for the initial conversion to Webpack.</p>
+
+<p>What Input is written and maintained by <a href="https://github.com/ten1seven">@ten1seven</a>.</p>
+
+<h2 id="license">License</h2>
+
+<p>What Input is freely available under the <a href="http://opensource.org/licenses/MIT">MIT License</a>.</p>
+
+          <!--    End Services Titles    -->
+      </section>
+
+      <!--  End Vision Section  -->
+
     <!--  Start Services Section  -->
 <section class="services" id="services">     
 

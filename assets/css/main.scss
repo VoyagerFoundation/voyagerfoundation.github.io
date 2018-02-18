@@ -704,6 +704,37 @@ text-transform: lowercase;
 margin-top: 60px;
 }
 
+/*    Vision    */
+
+.vision{
+  background: #ffffff;
+  padding: 140px 0;
+  background: url('../img/cubes.png') repeat;
+  text-align: center;
+  font-family: "raleway-light", Helvetica, Arial, sans-serif;
+  }
+  
+  .vision h2 {
+  color: #454545;
+  font-family: "raleway-bold", Helvetica, Arial, sans-serif;
+  font-size: 26px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+  }
+  
+  .vision .sub_title{
+  color: #454545;
+
+  font-weight: lighter;
+  font-size: 18px;
+  text-transform: lowercase;
+  }
+  
+  .vision .btn_fancy{
+  margin-top: 60px;
+  }
+
 
 
 
