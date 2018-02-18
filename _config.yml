@@ -1,5 +1,3 @@
-theme: jekyll-theme-minimal
-
 title: Voyager Foundation
 description: To take humanity's greatest problems and empower people to collaborate towards solutions and a brighter future.
 
@@ -9,8 +7,8 @@ show_downloads: false
 sass:
     sass_dir: _sass
     style: compressed
-
-
+    load_paths:
+      - bower_components/foundation-sites/scss
 
 # Handling Reading
 safe:                 false
