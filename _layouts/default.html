@@ -1,33 +1,218 @@
 <!doctype html>
 <html lang="{{ site.lang | default: "en-US" }}" class="no-js">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+  {% include head.html %}
 
-{% seo %}
-
-    <link rel="stylesheet" href="{{ '/assets/css/flexboxgrid.css' }}">
-    <link rel="stylesheet" href="{{ '/assets/css/voyager.css' }}">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{% if page.title %}{{ page.title }} &ndash; {% endif %}{{ site.title }}</title>
-    <meta name="description" content="{{ site.description }}" />
-    <meta name="google-site-verification" content="{{ site.google-verification }}">
-    <link rel="shortcut icon" href="/assets/img/icons/favicon.ico">
-    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/assets/img/icons/apple-touch-icon-144x144-precomposed.png">
-    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="/assets/img/icons/apple-touch-icon-114x114-precomposed.png">
-    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="/assets/img/icons/apple-touch-icon-72x72-precomposed.png">
-    <link rel="apple-touch-icon-precomposed" href="/assets/img/icons/apple-touch-icon-precomposed.png">
-    <link rel="stylesheet" href="/assets/css/app.css">
-    <!--[if lt IE 9]>
-    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
-  </head>
   <body>
-    {% include header.html %}
-    <div class="row content">
-    {{ content }}
-    </div>
+    <!--  Start Hero Section  -->
+    <section class="hero">
+      <header>
+        <div class="row">
+          
+
+          <nav class="top-bar" data-topbar role="navigation">
+            
+            <!--    Start Logo    -->
+            <ul class="title-area">
+              <li class="name">
+                <a href="#" class="logo">
+                  <h1>voyagerfoundation<span class="tld">.org</span></h1>
+                </a>
+              </li>
+                <span class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></span>
+              </li>
+            </ul>  
+            <!--    End Logo    -->
+
+            <!--    Start Navigation Menu    -->
+            <section class="top-bar-section" id="mean_nav">
+              <ul class="right">
+                <li><a href="#community">Community</a></li>
+                <li><a href="#vision">Vision</a></li>
+                <li><a href="#volonteer">Vononteer</a></li>
+                <li><a href="#collaboration">Collaboration</a></li>
+              </ul>
+            </section>
+            <!--    End Navigation Menu    -->
+
+          </nav>
+        </div>
+      </header>
+
+      <!--    Start Hero Caption    -->
+      <section class="caption">
+        <div class="row">
+          <h1 class="mean_cap">{{ site.title | default: site.github.repository_name }}</hA>
+          <h2 class="sub_cap">{{ site.description }}</h2>
+          <a href="#" class="btn_details"><span>More Details</span> <img src="assets/img/btn_arrow.png" alt="" src="" class="arrow"></a>
+        </div>
+      </section>
+      <!--    End Hero Caption    -->
+
+    </section>
+    <!--  End Hero Section  -->
+
+
+
+    <!--  Start Services Section  -->
+    <section class="services" id="services">     
+
+      <!--    Start Services Titles    -->
+      <div class="row">        
+        <h1 class="mean_title">Areas of focus</h1>
+        <h2 class="sub_title">To support our mission we are active in multiple areas.</h2> 
+      </div>
+      <!--    End Services Titles    -->
+
+      <!--    Start Services List    -->
+      <div class="row services_list">
+        <div class="small-12 medium-3 large-3 columns">
+          <img src="assets/img/icon2.png" alt="" title="" class="serv_icon"/>
+          <h2 class="title">Community</h2>
+          <p>
+            By running various meetups, hackatons and interviews we will educate people and encourage collaboration.
+          </p>
+        </div>
+
+        <div class="small-12 medium-3 large-3 columns">
+          <img src="assets/img/icon1.png" alt="" title="" class="serv_icon"/>
+          <h2 class="title">Mentorship</h2>
+          <p>Ruis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+        </div>
+
+        <div class="small-12 medium-3 large-3 columns">
+          <img src="assets/img/icon3.png" alt="" title="" class="serv_icon"/>
+          <h2 class="title">Collaboration</h2>
+          <p>Ruis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+        </div>
+
+        <div class="small-12 medium-3 large-3 columns">
+          <img src="assets/img/icon4.png" alt="" title="" class="serv_icon"/>
+          <h2 class="title">Funding</h2>
+          <p>Ruis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+        </div>
+      </div>
+      <!--    End Services List    -->
+
+      <!--    Start Button    -->
+      <div class="btn_holder">
+        <a href="#" class="btn_fancy">
+          <div class="solid_layer"></div>
+          <div class="border_layer"></div>
+          <div class="text_layer">Get In Touch</div>
+        </a>
+      </div>
+      <!--    End Button    -->
+
+    </section>
+    <!--  End Services Section  -->
+
+
+
+    <!--  Start Quote Section  -->
+    <section class="quote">
+        <blockquote>
+          <p> No. Try not. Do… or do not. There is no try.</p>
+          <hr/>
+          <span class="author">Yoda</span>
+        </blockquote>
+    </section>
+    <!--  End Quote Section  -->
+
+
+
+    <!--  Start Testimonials Section  -->
+    <section class="testimonials" id="testimonials">
+      <div class="row">
+        <div class="slider_container">
+          <div id="carousel">
+            
+            <div class="tesimonial">
+              <img src="assets/img/mashable.jpg" title="" alt="">
+              <span class="name">Mashable</span>
+              <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+              <span class="author">Alex Martin - CEO</span>
+            </div>
+
+            <div class="tesimonial">
+              <img src="assets/img/mashable.jpg" title="" alt="">
+              <span class="name">Mashable_2</span>
+              <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+              <span class="author">Alex Martin - CEO</span>
+            </div>
+
+            <div class="tesimonial">
+              <img src="assets/img/mashable.jpg" title="" alt="">
+              <span class="name">Mashable_3</span>
+              <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+              <span class="author">Alex Martin - CEO</span>
+            </div>
+
+          </div>          
+        </div>
+
+        <!--    Start Testimonials Pagination    -->
+        <nav class="pagination">
+          <ul>
+            <li><a href="#">1</a></li>
+            <li><a href="#" class="selected">2</a></li>
+            <li><a href="#">3</a></li>
+          </ul>
+        </nav>
+        <!--    End Testimonials Pagination    -->
+
+      </div>
+    </section>
+    <!--  End Testimonials Section  -->
+
+
+
+    <!--  Start Call To Action Section  -->
+    <section class="cta" id="vision">
+      <div class="row">
+
+        <!--    Start CTA Titles    -->
+        <h1 class="title">Sign for Voyager updates.</h1>
+        <h2 class="sub_title">Crafted With Care & attention to details by pixelhint.com</h2>
+        <!--    End CTA Titles    -->
+
+        <!--    Start Button    -->
+        <a href="#" class="btn_fancy">
+          <div class="solid_layer"></div>
+          <div class="border_layer"></div>
+          <div class="text_layer">Get It Now!</div>
+        </a>
+        <!--    End Button    -->
+
+      </div>
+    </section>
+    <!--  End Call To Action Section  -->
+
+
+
+    <!--  Start Map Section  -->
+    <section class="map" id="connect">
+
+      <!--    Start Map Shadow    -->
+      <div class="shadow"></div>
+      <!--    End Map Shadow    -->
+
+      <div id="map_container"></div>
+    </section>
+    <!--  End Map Section  -->
+
+
     {% include footer.html %}
+    
+
+    <!--    Start Back To Top    -->
+    <a href="#" class="btn_fancy" id="back_top">
+      <div class="solid_layer"></div>
+      <div class="border_layer"></div>
+      <div class="text_layer"><img src="assets/img/top_arrow.png" alt="Back to top" title="" class="top_arrow"></div>
+    </a>
+    <!--    End Back To Top    -->
+
     {% include scripts.html %}
+
   </body>
 </html>
