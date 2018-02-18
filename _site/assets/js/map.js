@@ -25,11 +25,11 @@ function initialize() {
 
 	var map = new google.maps.Map(document.getElementById(map_wrapper),mapOptions);
 
-	// var marker = new google.maps.Marker({
-	//   position:  new google.maps.LatLng(longitude, latitude),
-	//   map: map,
-	//   icon     : "assets/img/marker.png"
-	// });
+	var marker = new google.maps.Marker({
+	  position:  new google.maps.LatLng(longitude, latitude),
+	  map: map //,
+	  // icon     : "assets/img/marker.png"
+	});
 
 	var infowindow = new google.maps.InfoWindow({
 			content: bubble_content
