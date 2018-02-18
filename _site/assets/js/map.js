@@ -1,9 +1,9 @@
 var map_wrapper = 'map_container';	
-var longitude = 45.124099;
-var latitude = -123.113634;
+var longitude = 51.5074;
+var latitude = -0.1278;
 var bubble_content =	"<p class='map_contacts'>" +
 						"<span>Address : </span>" +
-						"550 Hershell Hollow Road Johnson City, TN 37615" +
+						"London" +
 						"</p>";
 
 
@@ -12,7 +12,7 @@ var bubble_content =	"<p class='map_contacts'>" +
 
 function initialize() {
 	var mapOptions = {
-		zoom: 13,
+		zoom: 08,
 		center: new google.maps.LatLng(longitude, latitude),
 		mapTypeId: google.maps.MapTypeId.ROADMAP,
 		mapTypeControl: false,
@@ -25,11 +25,11 @@ function initialize() {
 
 	var map = new google.maps.Map(document.getElementById(map_wrapper),mapOptions);
 
-	var marker = new google.maps.Marker({
-	  position:  new google.maps.LatLng(longitude, latitude),
-	  map: map,
-	  icon     : "assets/img/marker.png"
-	});
+	// var marker = new google.maps.Marker({
+	//   position:  new google.maps.LatLng(longitude, latitude),
+	//   map: map,
+	//   icon     : "assets/img/marker.png"
+	// });
 
 	var infowindow = new google.maps.InfoWindow({
 			content: bubble_content
