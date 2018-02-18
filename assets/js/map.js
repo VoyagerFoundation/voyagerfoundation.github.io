@@ -27,8 +27,8 @@ function initialize() {
 
 	var marker = new google.maps.Marker({
 	  position:  new google.maps.LatLng(longitude, latitude),
-	  map: map //,
-	  // icon     : "assets/img/marker.png"
+		map: map ,
+		icon: "assets/img/marker.png"
 	});
 
 	var infowindow = new google.maps.InfoWindow({
