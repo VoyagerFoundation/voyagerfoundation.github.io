@@ -8,4 +8,3 @@
 
 {::options parse_block_html="false" /}
 
-{% include mailchimp.html %}

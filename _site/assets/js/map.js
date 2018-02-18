@@ -12,7 +12,7 @@ var bubble_content =	"<p class='map_contacts'>" +
 
 function initialize() {
 	var mapOptions = {
-		zoom: 08,
+		zoom: 07,
 		center: new google.maps.LatLng(longitude, latitude),
 		mapTypeId: google.maps.MapTypeId.ROADMAP,
 		mapTypeControl: false,
@@ -27,8 +27,8 @@ function initialize() {
 
 	var marker = new google.maps.Marker({
 	  position:  new google.maps.LatLng(longitude, latitude),
-		map: map ,
-		icon: "assets/img/marker.png"
+		map: map //,
+		//icon: "assets/img/marker.png"
 	});
 
 	var infowindow = new google.maps.InfoWindow({
