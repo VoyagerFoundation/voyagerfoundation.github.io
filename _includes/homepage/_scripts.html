@@ -19,3 +19,10 @@
       ga('send', 'pageview');
   </script>
 {% endif %}
+
+<script> 
+    var host = "voyagerfoundation.org"
+    if (window.location.host == host && window.location.protocol != "https:") {
+      window.location.protocol = "https:"
+    }
+</script>
