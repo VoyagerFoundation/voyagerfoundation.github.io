@@ -3,6 +3,7 @@ description: Empowering people to collaborate towards a brighter future.
 
 show_downloads: false
 google_analytics: UA-114304013-1
+google-verification: jdXczsft93jwJfQn2v5K6iVZ71mwODCeNN1IqR6oEOg
 
 sass:
     sass_dir: _sass
