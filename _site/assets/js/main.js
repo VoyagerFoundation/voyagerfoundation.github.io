@@ -25,14 +25,14 @@ $(document).ready(function(){
     });
 
 
-
-
-
 	/*    Mean navigation menu scroll to    */
     $('#mean_nav ul li a').click(function(e){
 			if( $(this).attr('href').charAt(0) == "#"){
 				e.preventDefault();
 				scrollTo($(this).attr('href'), 900, 'easeInOutCubic');
+			}
+			else {
+				window.open($(this).attr('href'),"_self");
 			}
 		});
 		
