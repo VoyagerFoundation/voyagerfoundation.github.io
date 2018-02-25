@@ -735,6 +735,40 @@ margin-top: 60px;
   margin-top: 60px;
   }
 
+/* Page */
+.page-content{
+  background: #ffffff;
+  padding: 100px 10%;
+  background: url('../img/cubes.png') repeat;
+  text-align: left;
+  font-family: "raleway-light", Helvetica, Arial, sans-serif;
+  }
+  
+  .page-content h2 {
+  color: #454545;
+  font-family: "raleway-bold", Helvetica, Arial, sans-serif;
+  font-size: 26px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+  }
+  .page-content h3 {
+  color: #454545;
+  font-family: "raleway-bold", Helvetica, Arial, sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+  }
+  
+  .page-content .sub_title{
+  color: #454545;
+  font-family: "raleway-bold", Helvetica, Arial, sans-serif;
+  font-weight: lighter;
+  font-size: 18px;
+  text-transform: lowercase;
+  }
+
 
 
 
