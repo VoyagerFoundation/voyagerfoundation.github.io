@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Volonteer
+permalink: /
 ---
 
 ## Mission

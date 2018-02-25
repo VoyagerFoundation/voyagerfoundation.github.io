@@ -30,6 +30,13 @@ $(document).ready(function(){
 
 	/*    Mean navigation menu scroll to    */
     $('#mean_nav ul li a').click(function(e){
+			if( $(this).attr('href').charAt(0) == "#"){
+				e.preventDefault();
+				scrollTo($(this).attr('href'), 900, 'easeInOutCubic');
+			}
+		});
+		
+		$('#more_details').click(function(e){
     	e.preventDefault();
     	scrollTo($(this).attr('href'), 900, 'easeInOutCubic');
     });
