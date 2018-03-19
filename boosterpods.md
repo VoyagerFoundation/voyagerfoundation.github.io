@@ -20,6 +20,7 @@ permalink: boosterpods.html
 
 ##### Quick Links: 
 - [agenda](#agenda)
+- [speakers](#speakers)
 
 ##### Description: 
 
@@ -69,7 +70,7 @@ by McKisney Global Institute
 </div>
 
 <div class="row speaker_row" markdown="1">
-![Desne Masie]({{ "/assets/img/meetups/speakers/desne_masie/desne.jpg"}}){: .speaker-image } Dr Desné Masie is an economist and thought leader in international economics and financial markets, specialising in fintech and emerging markets. Dr Masie has had invited speaking engagements from the UK and EU Parliaments, Newsweek, the London School of Economics, the Commonwealth, the Nelson Mandela Foundation, and the Frontline Club. Her writing has been published in the Guardian and New African Magazine. Dr Masie holds an MSc in Finance & Financial Law from SOAS, specialising in regulation, and a PhD in Finance from Edinburgh. She has held senior roles in academia, media and finance in the UK and South Africa, including the Wits School of Governance, the Financial Mail, and Investec. 
+![Desne Masie]({{ "/assets/img/meetups/speakers/desne_masie/desne.jpg"}}){: .speaker-image } **Dr Desné Masie** is an economist and thought leader in international economics and financial markets, specialising in fintech and emerging markets. Dr Masie has had invited speaking engagements from the UK and EU Parliaments, Newsweek, the London School of Economics, the Commonwealth, the Nelson Mandela Foundation, and the Frontline Club. Her writing has been published in the Guardian and New African Magazine. Dr Masie holds an MSc in Finance & Financial Law from SOAS, specialising in regulation, and a PhD in Finance from Edinburgh. She has held senior roles in academia, media and finance in the UK and South Africa, including the Wits School of Governance, the Financial Mail, and Investec. 
 </div>
 
 More to be annouced soon
