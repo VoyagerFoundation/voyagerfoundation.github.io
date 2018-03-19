@@ -1,0 +1,62 @@
+---
+layout: page
+title: Booster Pods
+permalink: boosterpods.html
+---
+
+**Booster Pods** are series of events that brings the most important topics to people and discuss how we can solve them together. 
+
+### Upcoming Events
+
+![Hacking The Econony]({{ "/assets/img/meetups/london1/eventbg.png"}})
+
+## Hacking The Economy : Design Tomorrow - London - 12.04'18 
+
+##### Date: 12.04.2018
+
+##### Venue: [Runway East - The Engine Room, 10 Finsbury Square, EC2A 1AF, London UK](https://www.google.co.uk/maps/place/Runway+East+Moorgate/@51.5212177,-0.0893544,17z/data=!3m1!4b1!4m5!3m4!1s0x48761ca61c3f6463:0x6cd61a7911172e1a!8m2!3d51.5212144!4d-0.0871657)
+
+#####  Registration: [https://www.meetup.com/Voyager](http://bit.ly/2HK59Xb)
+
+##### Quick Links: [agenda](#agenda)
+
+##### Description: 
+
+- Can technologies like Blockchain and AI help us create a distributed economy? 
+- Is Universal Basic Income a way to go? 
+- Will shared and gig economies change the way how exchange value and service? 
+
+We live in one of the most dynamic eras of human civilisation. Never before can we control our destiny. Threats are so great and opportunities beyond imagination. 
+It is up to us if we will destroy ourselves or evolve and it is up to us how fast we will learn and adopt to help each other, not repeat mistakes.
+
+This Booster Pod is about one of the most important area of our life - the economy - that steers our action, motivation, power and happiness.  
+
+*The richest 0.1% of the world’s population have increased their combined wealth by as much as the poorest 50% – or 3.8 billion people – since 1980, according to a report detailing the widening gap between the very rich and poor.*
+The Guardian on “WORLD INEQUALITY REPORT 2018”
+
+*Automation threatens 800 million jobs, but the technology could still save us, says report.
+The Verge  on “What the future of work will mean for jobs, skills, and wages”*
+by McKisney Global Institute
+
+##### Agenda:
+
+- 6:00 PM - doors open & networking
+
+- 6:30 PM - event kick-off, welcome and intro from Filip Jakubowski-Drzewiecki founder of Voyager 
+
+- 6:45 PM - keynote from Brett Scott, Author of: The Heretic’s Guide to Global Finance: Hacking the 	Future of Money (2013)
+
+- 7:15 PM - Fact checker: world in numbers 
+
+- 7:25 PM - Discussion Panel: 
+	Brett Scott, Author of: The Heretic’s Guide to Global Finance: Hacking the Future of Money
+	Gavin Brown - Associate Professor in Financial Economics,
+	Dr Desne Masie - PhD in Management Finance
+	
+
+- 8:00 PM - Making a change - introduction to few selected running initiatives, Filip Jakubowski-Drzewiecki, founder of Voyager 
+
+- 8:10 PM - Discussion and Networking
+
+- 9:00 PM - Networking moves to local pub or other venue 
+
