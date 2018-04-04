@@ -16,7 +16,9 @@ permalink: boosterpods.html
 
 ##### Venue: [Runway East - The Engine Room, 10 Finsbury Square, EC2A 1AF, London UK](https://www.google.co.uk/maps/place/Runway+East+Moorgate/@51.5212177,-0.0893544,17z/data=!3m1!4b1!4m5!3m4!1s0x48761ca61c3f6463:0x6cd61a7911172e1a!8m2!3d51.5212144!4d-0.0871657)
 
-#####  Registration: [https://www.meetup.com/Voyager](http://bit.ly/2HK59Xb)
+##### Registration: [https://www.meetup.com/Voyager](http://bit.ly/2HK59Xb)
+
+##### Livestream - more info will be avaiable on our [facebook event page](https://www.facebook.com/events/325438377982642/).  
 
 ##### Quick Links: 
 - [agenda](#agenda)
