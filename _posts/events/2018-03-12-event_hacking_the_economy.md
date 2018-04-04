@@ -5,7 +5,6 @@ date:   2018-03-12 18:00
 categories: london
 ---
 
-
 **Booster Pods** are series of events that brings the most important topics to people and discuss how we can solve them together. 
 
 ### Upcoming Events
@@ -74,11 +73,12 @@ by McKisney Global Institute
 <div class="row speaker_row" markdown="1">
 ![Desne Masie]({{ "/assets/img/meetups/speakers/desne_masie/desne.jpg"}}){: .speaker-image } **Dr Desné Masie** is an economist and thought leader in international economics and financial markets, specialising in fintech and emerging markets. Dr Masie has had invited speaking engagements from the UK and EU Parliaments, Newsweek, the London School of Economics, the Commonwealth, the Nelson Mandela Foundation, and the Frontline Club. Her writing has been published in the Guardian and New African Magazine. Dr Masie holds an MSc in Finance & Financial Law from SOAS, specialising in regulation, and a PhD in Finance from Edinburgh. She has held senior roles in academia, media and finance in the UK and South Africa, including the Wits School of Governance, the Financial Mail, and Investec. 
 </div>
-
 <div class="row speaker_row" markdown="1">
-![Jane Thomason]({{ "/assets/img/meetups/speakers/jane_thomason/jane_thomason .jpg"}}){: .speaker-image } **Jane Thomason** leads  Abt Associates digital transformation work globally. Abt Associates is a global leader in research, evaluation and program implementation in the fields of health, social and environmental policy, and international development. Jane is an advocate for using blockchain technology for social good, with a focus on the bottom billion. She has published peer reviewed articles on blockchain and climate finance and the poor and on blockchain as an accelerator for women’s and children’s health. She is an adviser to several blockchain startups with applications that solve global problems, and is working on blockchain Proofs of Concept in emerging markets. She is an advocate for the education and empowerment of women, #womeninblockchain and #DecadeOfWomen.  She is a Global Ambassador for the British Blockchain Association and sits on their Advisory Board and Editorial Committee.
+![Jane Thomason]({{ "/assets/img/meetups/speakers/jane_thomason/jane_thomason.jpg"}}){: .speaker-image } **Jane Thomason** leads  Abt Associates digital transformation work globally. Abt Associates is a global leader in research, evaluation and program implementation in the fields of health, social and environmental policy, and international development. Jane is an advocate for using blockchain technology for social good, with a focus on the bottom billion. She has published peer reviewed articles on blockchain and climate finance and the poor and on blockchain as an accelerator for women’s and children’s health. She is an adviser to several blockchain startups with applications that solve global problems, and is working on blockchain Proofs of Concept in emerging markets. She is an advocate for the education and empowerment of women, #womeninblockchain and #DecadeOfWomen.  She is a Global Ambassador for the British Blockchain Association and sits on their Advisory Board and Editorial Committee.
+</div>
+Moderator: 
+<div class="row speaker_row" markdown="1">
+![Nazia Tingay]({{ "/assets/img/meetups/speakers/nazia_tingay/nazia_tingay.jpg"}}){: .speaker-image } **Nazia Tingay** studied Law at University and has been in Technology for twenty five years. Nazia ia a trustee for a charity Citizens of the World Choir, promoting diversity and understanding through music and is passionate about gender diversity. Nazia joined Barclays Bank in 2011 and is responsible for pioneering new ways to pay and develop a pipeline of innovation by experimenting in four main areas – contactless card payments, mobile payments, wearables (bPay) and connected devices (IoT) and by engaging with Enterprise partners to deliver enhancements in technology.
 </div>
 
 More to be annouced soon
-
-

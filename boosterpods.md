@@ -26,7 +26,8 @@ permalink: boosterpods.html
 
 - Can technologies like Blockchain and AI help us create a distributed economy? 
 - Is Universal Basic Income a way to go? 
-- Will shared and gig economies change the way how exchange value and service? 
+- Will shared and gig economies change the way how exchange value and service?
+- What about resource based economy?  
 
 We live in one of the most dynamic eras of human civilisation. Never before can we control our destiny. Threats are so great and opportunities beyond imagination. 
 It is up to us if we will destroy ourselves or evolve and it is up to us how fast we will learn and adopt to help each other, not repeat mistakes.
