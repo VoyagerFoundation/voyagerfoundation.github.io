@@ -86,6 +86,3 @@ Moderator:
 <div class="row speaker_row" markdown="1">
 ![Nazia Tingay]({{ "/assets/img/meetups/speakers/nazia_tingay/nazia_tingay.jpg"}}){: .speaker-image } **Nazia Tingay** studied Law at University and has been in Technology for twenty five years. Nazia ia a trustee for a charity Citizens of the World Choir, promoting diversity and understanding through music and is passionate about gender diversity. Nazia joined Barclays Bank in 2011 and is responsible for pioneering new ways to pay and develop a pipeline of innovation by experimenting in four main areas – contactless card payments, mobile payments, wearables (bPay) and connected devices (IoT) and by engaging with Enterprise partners to deliver enhancements in technology.
 </div>
-
-More to be annouced soon
-
