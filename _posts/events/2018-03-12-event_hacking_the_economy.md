@@ -1,8 +1,10 @@
 ---
 layout: page
-title: Booster Pods
-permalink: boosterpods.html
+title:  "Hacking The Econommy: Design Tomorrow"
+date:   2018-03-12 18:00
+categories: london
 ---
+
 
 **Booster Pods** are series of events that brings the most important topics to people and discuss how we can solve them together. 
 
@@ -74,7 +76,9 @@ by McKisney Global Institute
 </div>
 
 <div class="row speaker_row" markdown="1">
-![Jane Thomason]({{ "/assets/img/meetups/speakers/jane_thomason/jane_thomason.jpg"}}){: .speaker-image } **Jane Thomason** leads  Abt Associates digital transformation work globally. Abt Associates is a global leader in research, evaluation and program implementation in the fields of health, social and environmental policy, and international development. Jane is an advocate for using blockchain technology for social good, with a focus on the bottom billion. She has published peer reviewed articles on blockchain and climate finance and the poor and on blockchain as an accelerator for women’s and children’s health. She is an adviser to several blockchain startups with applications that solve global problems, and is working on blockchain Proofs of Concept in emerging markets. She is an advocate for the education and empowerment of women, #womeninblockchain and #DecadeOfWomen.  She is a Global Ambassador for the British Blockchain Association and sits on their Advisory Board and Editorial Committee.
+![Jane Thomason]({{ "/assets/img/meetups/speakers/jane_thomason/jane_thomason .jpg"}}){: .speaker-image } **Jane Thomason** leads  Abt Associates digital transformation work globally. Abt Associates is a global leader in research, evaluation and program implementation in the fields of health, social and environmental policy, and international development. Jane is an advocate for using blockchain technology for social good, with a focus on the bottom billion. She has published peer reviewed articles on blockchain and climate finance and the poor and on blockchain as an accelerator for women’s and children’s health. She is an adviser to several blockchain startups with applications that solve global problems, and is working on blockchain Proofs of Concept in emerging markets. She is an advocate for the education and empowerment of women, #womeninblockchain and #DecadeOfWomen.  She is a Global Ambassador for the British Blockchain Association and sits on their Advisory Board and Editorial Committee.
 </div>
 
 More to be annouced soon
+
+
