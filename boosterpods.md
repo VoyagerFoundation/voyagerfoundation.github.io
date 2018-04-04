@@ -51,15 +51,16 @@ by McKisney Global Institute
 
 - 7:15 PM - Fact checker: world in numbers 
 
-- 7:25 PM - Discussion Panel: 
+- 7:20 PM - Discussion Panel: 
 	Brett Scott, Author of: The Heretic’s Guide to Global Finance: Hacking the Future of Money
-	Gavin Brown - Associate Professor in Financial Economics,
 	Dr Desne Masie - PhD in Management Finance
-	
+	Dr Jane Thomason - PhD in Philosophy
+	Dan Gailey - CEO of Synnapse.AI
+	Nazia Tingay - Moderator
 
-- 8:00 PM - Making a change - introduction to few selected running initiatives, Filip Jakubowski-Drzewiecki, founder of Voyager 
+- 8:20 PM - Making a change - introduction to few selected running initiatives, Filip Jakubowski-Drzewiecki, founder of Voyager 
 
-- 8:10 PM - Discussion and Networking
+- 8:30 PM - Discussion and Networking
 
 - 9:00 PM - Networking moves to local pub or other venue 
 
@@ -78,7 +79,7 @@ by McKisney Global Institute
 </div>
 
 <div class="row speaker_row" markdown="1">
-![Jane Thomason]({{ "/assets/img/meetups/speakers/dan_gailey/dan_gailey.jpg"}}){: .speaker-image } 
+![Dan Gailey]({{ "/assets/img/meetups/speakers/dan_gailey/dan_gailey.jpg"}}){: .speaker-image } 
 **Dan Gailey** Passionate about machine learning, and artificial intelligence, Dan is a huge proponent of ambient intelligence and how it will complement our lives. Dan Gailey is the CEO of Synapse AI — The first Decentralized AI Market and Network built on the Blockchain. Dan has a background in building intelligent multi-agent systems for a variety of interfaces across many platforms. Dan has previously worked in Venture Capital facilitating deal flow for cryptocurrency startups and has an education in Electrical Engineering (Autonomous Robotics) and Computational Chemistry.
 </div>
 
