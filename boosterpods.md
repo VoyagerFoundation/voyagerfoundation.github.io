@@ -76,6 +76,12 @@ by McKisney Global Institute
 <div class="row speaker_row" markdown="1">
 ![Jane Thomason]({{ "/assets/img/meetups/speakers/jane_thomason/jane_thomason.jpg"}}){: .speaker-image } **Jane Thomason** leads  Abt Associates digital transformation work globally. Abt Associates is a global leader in research, evaluation and program implementation in the fields of health, social and environmental policy, and international development. Jane is an advocate for using blockchain technology for social good, with a focus on the bottom billion. She has published peer reviewed articles on blockchain and climate finance and the poor and on blockchain as an accelerator for women’s and children’s health. She is an adviser to several blockchain startups with applications that solve global problems, and is working on blockchain Proofs of Concept in emerging markets. She is an advocate for the education and empowerment of women, #womeninblockchain and #DecadeOfWomen.  She is a Global Ambassador for the British Blockchain Association and sits on their Advisory Board and Editorial Committee.
 </div>
+
+<div class="row speaker_row" markdown="1">
+![Jane Thomason]({{ "/assets/img/meetups/speakers/dan_gailey/dan_gailey.jpg"}}){: .speaker-image } 
+**Dan Gailey** Passionate about machine learning, and artificial intelligence, Dan is a huge proponent of ambient intelligence and how it will complement our lives. Dan Gailey is the CEO of Synapse AI — The first Decentralized AI Market and Network built on the Blockchain. Dan has a background in building intelligent multi-agent systems for a variety of interfaces across many platforms. Dan has previously worked in Venture Capital facilitating deal flow for cryptocurrency startups and has an education in Electrical Engineering (Autonomous Robotics) and Computational Chemistry.
+</div>
+
 Moderator: 
 <div class="row speaker_row" markdown="1">
 ![Nazia Tingay]({{ "/assets/img/meetups/speakers/nazia_tingay/nazia_tingay.jpg"}}){: .speaker-image } **Nazia Tingay** studied Law at University and has been in Technology for twenty five years. Nazia ia a trustee for a charity Citizens of the World Choir, promoting diversity and understanding through music and is passionate about gender diversity. Nazia joined Barclays Bank in 2011 and is responsible for pioneering new ways to pay and develop a pipeline of innovation by experimenting in four main areas – contactless card payments, mobile payments, wearables (bPay) and connected devices (IoT) and by engaging with Enterprise partners to deliver enhancements in technology.
