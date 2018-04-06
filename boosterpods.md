@@ -54,11 +54,11 @@ by McKisney Global Institute
 - 7:15 PM - Fact checker: world in numbers 
 
 - 7:20 PM - Discussion Panel: 
-	Brett Scott, Author of: The Heretic’s Guide to Global Finance: Hacking the Future of Money
-	Dr Desne Masie - PhD in Management Finance
-	Dr Jane Thomason - PhD in Philosophy
-	Dan Gailey - CEO of Synnapse.AI
-	Nazia Tingay - Moderator
+	- Brett Scott, Author of: The Heretic’s Guide to Global Finance: Hacking the Future of Money
+	- Dr Desne Masie - PhD in Management Finance
+	- Dr Jane Thomason - PhD in Philosophy
+	- Dan Gailey - CEO of Synnapse.AI
+	- Nazia Tingay - Moderator
 
 - 8:20 PM - Making a change - introduction to few selected running initiatives, Filip Jakubowski-Drzewiecki, founder of Voyager 
 
