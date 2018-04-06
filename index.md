@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Volonteer
+title: Volunteer
 permalink: /
 ---
 
