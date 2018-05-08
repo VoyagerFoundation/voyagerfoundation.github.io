@@ -8,6 +8,10 @@ permalink: boosterpods.html
 
 ### Upcoming Events
 
+We are preparing something special, this time around Enviromental challanges that we may know or may not be aware! 
+
+### Past Events
+
 ![Hacking The Econony]({{ "/assets/img/meetups/london1/eventbg.png"}})
 
 ## Hacking The Economy : Design Tomorrow - London - 12.04'18 
