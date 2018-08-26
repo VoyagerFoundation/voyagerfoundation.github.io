@@ -4,9 +4,6 @@ title:  "Hack How You Pack: All the ways we're killing the world everyday - Lond
 date:   2018-05-23 18:00
 categories: [london, event, upcoming]
 event_date: 2018-07-19 18:00
- : "Plastics and packaging fill our shelves, lives and now even our oceans. Although many are recyclable, most are simply discarded and not thought about.
-What happens to our waste? How can we reduce the impact of our daily lives? Is there a better way?"
-image: 
 ---
 
 **Booster Pods** are series of events that brings the most important topics to people and discuss how we can solve them together. 
