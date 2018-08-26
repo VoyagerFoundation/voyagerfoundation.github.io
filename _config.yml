@@ -1,5 +1,6 @@
 title: Changing The World
 description: by empowering people to solve problems together
+baseurl: voyagerfoundation.org
 
 show_downloads: false
 google_analytics: UA-114304013-1
@@ -11,7 +12,6 @@ sass:
     load_paths:
       - bower_components/foundation-sites/scss
       
-
 # Handling Reading
 safe:                 false
 include:              [".htaccess"]
@@ -37,3 +37,51 @@ kramdown:
   hard_wrap:      false
   footnote_nr:    1
   show_warnings:  false
+
+tweetsert:
+  enabled: true
+  layout: "post"
+  debug: false
+
+  title:
+    prefix: "[Tweet] "
+    words:  9
+    suffix: " ..."
+
+  properties:
+    is_tweet: true
+    tweet_html: $
+    share: false
+    comments: true
+
+  timeline:
+    handle: 'VoyagerPod'
+
+ #   handles:
+ #     - 'somehandle'
+ #     - 'anotherhandle'
+
+    access_token: "967846163381719042-aF59leCjqEmmbWn74hXpog8SSsP3jGG"
+    limit: 20
+
+    replies: false
+    retweets: true
+
+    #include:
+    #  - '#blogimport'
+
+    exclude:
+      - 'https://example.org/\d+/'
+      - '^.@'
+
+    no_newer: true
+    no_older: false
+
+  embed:
+    excerpts: true
+    theme: "dark"
+    link_color: "#80FF80"
+    omit_script: false
+    prefix: '<i>I tweeted this on {{date}}</i>'
+    suffix: '<p>Click <a href="{{url}}">here</a> to comment.</p>'
+
