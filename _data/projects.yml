@@ -1,0 +1,70 @@
+- 
+  name: myplanet
+  url: https://myplanet.app
+  description:
+    Myplanet.app is a main project of voyagerfoundation.org. 
+
+- 
+  name: my plastic footpritnt
+  url: https://myplasticfootpritnt.org
+  description: 
+    Myplasticfootprint.org will be an application 
+    that will help people to calculate their plastic waste 
+    at scale of time and impact to world. 
+    Will also provide iformation about the problem of plastic waste across
+    different part of our lives and activity and ecosystem. 
+    Will also advocate different methods for reducing plastic footprint. 
+  vacancies:
+    description: 
+      We are looking for a number of people who will join our open source projct. 
+      Anyone will is welcome but few roles would be essential for us. 
+      BTW project already started. 
+      You can also join us on hackatons that have their physical presence in London, UK. 
+    positions:
+    - designer  
+    - frontend developer ( js, maybe react, css )
+    - backend developer ( ruby, rails )
+    - social media
+    - marketing
+    - partnerships 
+    - project manager
+
+- 
+  name: is this recycable?
+  url: https://isthisrecycable.org
+  description: 
+    Is this recyclable is an app and open community that helps people to learn 
+    if products you want to buy and packaging are recylables and how. 
+    Ultimatly we want to integrate with existing product database and help to automate produc
+  vacancies:
+    description: 
+      We are looking for a number of people who will join our open source projct. 
+      Anyone will is welcome but few roles would be essential for us. 
+    roles:
+      - leader/owner
+      - designer  
+      - frontend developer ( js, maybe react, css )
+      - backend developer ( ruby, rails )
+      - social media
+      - marketing specialist
+      - partnerships developer
+      - architect 
+      - analyst 
+
+- 
+  name: hearmyvoice.today
+  url: https://hearmyvoice.today
+  description:
+      HearMyVoice.Today is a initiative that will allow the indyviduals to share thir personal story (not multiple small posts - rather one medium).
+      Story can be tagged. Via upvoting story can get wider exposure. 
+      Story browser will be main functionality - people can discover random stories or fallow tags, locations and popularity. 
+  vacancies: 
+      - leader / project owner
+      - designer
+      - frontend developer
+      - backend developer
+      - marketing specialist
+      - social media specialist
+      - partnerships developer
+      - architect 
+      - analyst 
